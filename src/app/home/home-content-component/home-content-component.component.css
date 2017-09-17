@@ -1,0 +1,52 @@
+
+.row {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-image: url('../../../assets/imgs/black-back.png');
+  height:600px;
+  padding: 150px;
+}
+
+
+#img1 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#img1 span {
+  color:lightgray;
+  display: none;
+}
+
+#img2 span {
+  color:lightgray;
+  display: none;
+}
+
+#img1:hover span {
+  display:inline;
+}
+
+#img2:hover span {
+  display:inline;
+}
+
+#img1 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#img2 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#img2 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
