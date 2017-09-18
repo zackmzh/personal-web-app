@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { Route,Router,RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
 
 

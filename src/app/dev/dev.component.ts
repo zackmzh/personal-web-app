@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DevComponent implements OnInit {
 
+  self_img_url: string = './../../assets/imgs/myImg.jpg';
+
   constructor() { }
 
   ngOnInit() {
