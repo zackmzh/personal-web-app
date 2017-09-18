@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DevComponent implements OnInit {
 
+  nav_img_url='./../../../assets/imgs/proxy-pony_dribbble.jpg';
 
   constructor() { }
 
