@@ -1,13 +1,18 @@
 <div class='row'>
 
-  <div id="img1" class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;cursor:pointer">
+  <div id="motto" class="col-lg-12">
+    <h3>There is but one secret to success</h3>
+    <h3>---never give up!</h3>
+  </div>
+
+  <div id="img1" class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;cursor:pointer" (click)="toDev()">
     <figure><img class="img-circle" [src]=dev_img_url alt="dev_img" style="height: 200px;width: 200px;"></figure><br/><br/>
-    <span><span class="glyphicon glyphicon-chevron-left"></span><span class="glyphicon glyphicon-chevron-left"></span>Developer</span>
+    <div [@flyLeftOut]="leftState"><span><span class="glyphicon glyphicon-chevron-left"></span><span class="glyphicon glyphicon-chevron-left"></span>Developer</span></div>
 
   </div>
-  <div  id="img2" class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;cursor:pointer">
+  <div  id="img2" class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;cursor:pointer" (click)="toHobbies()">
     <figure><img class="img-circle" [src]=sports_img_url alt="sport_img" style="height: 200px;width:200px;"></figure><br/><br/>
-    <span style="color:lightgray">Hobbies<span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span></span>
+    <div [@flyRightOut]="rightState"><span style="color:lightgray">Hobbies<span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span></span></div>
   </div>
 
 </div>
