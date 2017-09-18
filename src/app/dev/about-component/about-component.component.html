@@ -3,7 +3,7 @@
   <div class="row">
 
     <div class="col-sm-5 col-md-5 col-lg-5">
-      <img [src]=self_img_url alt="self_img" style="height:450px;width:450px; margin:20px;box-shadow: 1px 1px 1px grey;opacity:1;">
+      <figure><img [src]=self_img_url alt="self_img" [@imgShowHide]="imgState"></figure>
     </div>
     <div class="col-sm-6 col-md-6 col-sm-6" style="padding:20px">
       <h1 style="font-size: 50px;color:lightblue">Hello</h1>

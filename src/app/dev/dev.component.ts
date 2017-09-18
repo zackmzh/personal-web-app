@@ -12,6 +12,7 @@ export class DevComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

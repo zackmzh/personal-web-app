@@ -1,0 +1,16 @@
+
+figure {
+  cursor:pointer;
+  overflow: hidden;
+  border: 5px solid white;
+  -webkit-box-shadow:0 0 22px rgba(0,0,0,.5);
+}
+
+figure img {
+  height:400px;
+  width:400px;
+  -webkit-transition: all 1.3s;
+}
+figure:hover img {
+  -webkit-transform: scale(1.3);
+}
