@@ -5,6 +5,7 @@ import { AboutComponentComponent } from './about-component/about-component.compo
 import { ExperienceComponent } from './experience/experience.component';
 import { Routes,RouterModule } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
+import { SkillsComponent } from './skills/skills.component';
 
 const route:Routes = [
   {path:'dev',component:DevComponent,children:[
@@ -22,7 +23,7 @@ const devRoute = RouterModule.forRoot(route);
     CommonModule,
     devRoute
   ],
-  declarations: [DevComponent, AboutComponentComponent, ExperienceComponent, ContactComponent],
+  declarations: [DevComponent, AboutComponentComponent, ExperienceComponent, ContactComponent, SkillsComponent],
   exports:[DevComponent]
 })
 export class DevModule { }

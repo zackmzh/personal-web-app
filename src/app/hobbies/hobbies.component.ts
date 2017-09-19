@@ -1,11 +1,4 @@
-import { Component,
-  OnInit,
-  animate,
-  state,
-  style,
-  transition,
-  trigger,
-  keyframes} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-hobbies',
@@ -17,7 +10,6 @@ export class HobbiesComponent implements OnInit {
   travel_img_url :string;
   tennis_img_url:string;
   table_tennis_img_url:string;
-  imgStatus:string='hide';
   images:any;
 
   constructor() {
@@ -43,5 +35,15 @@ export class HobbiesComponent implements OnInit {
     this.tennis_img_url="./../../../assets/imgs/tennis_my.jpg";
     this.table_tennis_img_url="./../../../assets/imgs/table_tennis.JPG";
   }
+
+  scrollToTop(scrollDuration:number) {
+    var scrollStep = -window.scrollY / (scrollDuration / 15),
+      scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+          window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval);
+      },15);
+  };
 
 }

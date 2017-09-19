@@ -1,0 +1,11 @@
+figure {
+  cursor:pointer;
+  overflow: hidden;
+}
+
+figure img {
+  -webkit-transition: all 1.3s;
+}
+figure:hover img {
+  -webkit-transform: rotate(360deg);
+}

@@ -1,8 +1,52 @@
 
+
+.parallax1 {
+
+  background-image:url('./../../../assets/imgs/background-1.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+
+  background-image:url('./../../../assets/imgs/background-2.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+
+  background-image:url('./../../../assets/imgs/background_3.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 figure {
   cursor:pointer;
   overflow: hidden;
   border: 5px solid white;
+  margin-left:10px;
   -webkit-box-shadow:0 0 22px rgba(0,0,0,.5);
 }
 
