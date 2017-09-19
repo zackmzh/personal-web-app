@@ -57,5 +57,6 @@ export class HomeContentComponentComponent implements OnInit {
 
   toHobbies(){
     this.rightState = (this.rightState ==='off') ? "on" : "off";
+    setTimeout(()=>{this.router.navigate(['/hobbies'])},1000);
   };
 }

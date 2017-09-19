@@ -8,6 +8,7 @@ import { routes } from './app.routes';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
 import { DevModule } from './dev/dev.module';
+import { HobbiesModule } from './hobbies/hobbies.module';
 
 
 
@@ -21,7 +22,8 @@ import { DevModule } from './dev/dev.module';
     BrowserAnimationsModule,
     HomeModule,
     RouterModule.forRoot(routes),
-    DevModule
+    DevModule,
+    HobbiesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

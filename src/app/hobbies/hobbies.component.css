@@ -1,0 +1,53 @@
+#travel figure {
+  height:380px;
+  width:300px;
+  cursor:pointer;
+  overflow: hidden;
+  border: 20px solid white;
+  -webkit-box-shadow:0 0 22px rgba(0,0,0,.5);
+}
+
+#travel figure img {
+  height:350px;
+  width:260px;
+  -webkit-transition: all 1.3s;
+}
+#travel figure:hover img {
+  -webkit-transform: scale(1.3);
+}
+
+#tennis figure {
+  height:360px;
+  width:420px;
+  cursor:pointer;
+  overflow: hidden;
+  border: 20px solid white;
+  -webkit-box-shadow:0 0 22px rgba(0,0,0,.5);
+}
+
+#tennis figure img {
+  height:320px;
+  width:380px;
+  -webkit-transition: all 1.3s;
+}
+#tennis figure:hover img {
+  -webkit-transform: scale(1.3);
+}
+
+#tableTennis figure {
+  height:340px;
+  width:450px;
+  cursor:pointer;
+  overflow: hidden;
+  border: 20px solid white;
+  -webkit-box-shadow:0 0 22px rgba(0,0,0,.5);
+}
+
+#tableTennis figure img {
+  height:300px;
+  width:410px;
+  -webkit-transition: all 1.3s;
+}
+#tableTennis figure:hover img {
+  -webkit-transform: scale(1.3);
+}
