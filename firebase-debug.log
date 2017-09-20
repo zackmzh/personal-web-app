@@ -1,0 +1,33 @@
+[debug] [2017-09-20T19:28:22.231Z] ----------------------------------------------------------------------
+[debug] [2017-09-20T19:28:22.233Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-20T19:28:22.234Z] CLI Version:   3.12.0
+[debug] [2017-09-20T19:28:22.234Z] Platform:      darwin
+[debug] [2017-09-20T19:28:22.234Z] Node Version:  v6.11.0
+[debug] [2017-09-20T19:28:22.235Z] Time:          Wed Sep 20 2017 15:28:22 GMT-0400 (EDT)
+[debug] [2017-09-20T19:28:22.235Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-20T19:28:22.253Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-20T19:28:22.254Z] > authorizing via signed-in user
+[debug] [2017-09-20T19:28:22.256Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-20T19:28:22.256Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/A1eIdTi5VkmC76vu1ib9A2I0sMTnyE4fFXtaKR4BFnc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Sep 20 2017 15:28:22 GMT-0400 (EDT)
+[debug] [2017-09-20T19:28:22.489Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-20T19:28:22.496Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/personal-web-6c852  
+ Wed Sep 20 2017 15:28:22 GMT-0400 (EDT)
+[debug] [2017-09-20T19:28:22.950Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-20T19:28:22.951Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/personal-web-6c852/tokens  
+ Wed Sep 20 2017 15:28:22 GMT-0400 (EDT)
+[debug] [2017-09-20T19:28:23.311Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'personal-web-6c852'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2017-09-20T19:28:24.709Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/personal-web-6c852/uploads/-KuVko1zrY4b-75lBjre?fileCount=54&message=  
+ Wed Sep 20 2017 15:28:24 GMT-0400 (EDT)
+[debug] [2017-09-20T19:28:36.806Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-20T19:28:36.807Z] [hosting] .tgz uploaded successfully, waiting for extraction
