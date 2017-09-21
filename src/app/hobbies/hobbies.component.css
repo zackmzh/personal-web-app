@@ -56,3 +56,21 @@
   cursor:pointer;
   text-align: center;
 }
+
+
+h1.gradient {
+  text-align: center;
+  color: black; /* Fallback Color */
+  text-transform: uppercase;
+  font-family: 'Al Tarikh';
+  font-size: 90px;
+  padding-top: 200px;
+
+}
+@media  screen and (-webkit-min-device-pixel-ratio:1) {
+  h1.gradient {
+    background: -webkit-gradient(linear,left top,left bottom,from(black),to(white));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
