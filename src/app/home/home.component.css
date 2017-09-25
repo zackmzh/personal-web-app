@@ -1,5 +1,8 @@
-#home_background {
+html,body{
+  height: 100%;
+}
 
+#home_background {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

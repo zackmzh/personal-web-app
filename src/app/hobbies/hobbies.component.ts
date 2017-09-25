@@ -7,7 +7,7 @@ import { Component, OnInit} from '@angular/core';
 })
 export class HobbiesComponent implements OnInit {
 
-  travel_img_url :string;
+  travel_img_url:string;
   tennis_img_url:string;
   table_tennis_img_url:string;
   images:any;

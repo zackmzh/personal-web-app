@@ -10,7 +10,7 @@ export class GalleryComponent {
   @Input() datasource;
   selectedImage;
 
-  setSelectedImage(image){
-    this.selectedImage= image;
+  setSelectedImage(image) {
+    this.selectedImage = image;
   }
 }
