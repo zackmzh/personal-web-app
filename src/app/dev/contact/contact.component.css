@@ -1,0 +1,35 @@
+
+body html{
+  height:100%;
+  width:100%;
+}
+
+#contact {
+  height:600px;
+  background-image: url("./../../../assets/imgs/contact_back2.jpg");
+  background-position: center;
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.contact_me_info {
+  position:relative;
+  font-size:20px;
+  top:100px;
+  text-align: center;
+  color:darkgray;
+  font-family: 'Apple LiSung';
+  padding:30px;
+}
+
+#contact_you {
+  position:relative;
+  top:50px;
+}
+
+form {
+  position:relative;
+  left:50px;
+}

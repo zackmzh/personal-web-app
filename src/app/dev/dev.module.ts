@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { DevComponent } from './dev.component';
 import { AboutComponentComponent } from './about-component/about-component.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -21,7 +22,8 @@ const devRoute = RouterModule.forRoot(route);
 @NgModule({
   imports: [
     CommonModule,
-    devRoute
+    devRoute,
+    FormsModule
   ],
   declarations: [DevComponent, AboutComponentComponent, ExperienceComponent, ContactComponent, SkillsComponent],
   exports:[DevComponent]

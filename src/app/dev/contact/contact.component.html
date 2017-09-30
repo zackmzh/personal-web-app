@@ -1,8 +1,79 @@
-<div style="backGround-color:black;width:100%;height:250px;">
-  <div class="contact" style="text-align: center;color:white;font-family: 'Apple LiSung';padding:50px;">
-    <h2>Contact Information</h2>
-    <label style="font-size: larger">Email: mzhzack66@gmail.com</label><br/>
-    <label style="font-size: larger">Phone: (862)5760556</label>
+
+<div id="contact" class="row">
+
+
+
+
+
+  <div id="contact_me" class="col-sm-6 col-md-6 col-lg-6">
+    <div class="contact_me_info">
+      <h2>Contact Information</h2>
+      <label style="font-size: larger">Email: mzhzack66@gmail.com</label><br/>
+      <label style="font-size: larger">Phone: (862)5760556</label>
+      <p style="position:relative;top:40px;">Want my complete resume? <a href="./../../../assets/resume/Zack.pdf">Please Click here</a></p>
+    </div>
   </div>
-  <p style="color:white;">Want my complete resume? <a href="./../../../assets/resume/Zack.pdf">Please Click here</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="contact_you" class="col-sm-5 col-md-5 col-lg-5">
+
+
+
+
+
+
+
+        <form>
+
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" id="firstname" placeholder="First Name*" [(ngModel)]="firstname" name="firstname">
+            <small class="form-text text-muted">first name</small>
+            <input type="text" class="form-control" id="lastname" placeholder="Last Name*" [(ngModel)]="lastname" name="lastname">
+            <small class="form-text text-muted">last name</small>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" class="form-control" id="company" placeholder="Company*" [(ngModel)]="company" name="company">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" [(ngModel)]="email" name="email">
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+          </div>
+
+
+
+          <div class="form-group">
+            <label for="message">Leave me a message?</label>
+            <textarea class="form-control" id="message" rows="3" [(ngModel)]="dropMeAMessage" name="message"></textarea>
+          </div>
+
+
+          <button type="submit" class="btn btn-primary" (click)="saveCompanyInfo()">Submit</button>
+        </form>
+
+
+
+
+
+
+
 </div>
+
+
